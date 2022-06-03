@@ -6,4 +6,9 @@
     <string name="enter_your_task">Enter your task</string>
     <string name="add_tasks_to_your_list">Add tasks to your list</string>
     <string name="plus">+</string>
+
+<!--    <string-array name="spinnerItems">-->
+<!--        <item>Add a task</item>-->
+<!--        <item>Remove a task</item>-->
+<!--    </string-array>-->
 </resources>
