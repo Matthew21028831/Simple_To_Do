@@ -3,12 +3,12 @@
     <string name="to_do_list">To Do List</string>
     <string name="my_tasks">My tasks</string>
     <string name="clear_all">Clear All</string>
-    <string name="enter_your_task">Enter your task</string>
+    <string name="enter_your_task">Enter your task/index</string>
     <string name="add_tasks_to_your_list">Add tasks to your list</string>
     <string name="plus">+</string>
 
-<!--    <string-array name="spinnerItems">-->
-<!--        <item>Add a task</item>-->
-<!--        <item>Remove a task</item>-->
-<!--    </string-array>-->
+    <string-array name="spinnerItems">
+        <item>Add a task</item>
+        <item>Remove a task</item>
+    </string-array>
 </resources>

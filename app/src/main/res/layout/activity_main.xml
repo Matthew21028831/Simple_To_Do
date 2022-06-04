@@ -8,18 +8,25 @@
     tools:context=".MainActivity"
     android:background="@color/Greenhish">
 
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="34dp"
+        android:background="@color/darkergreenish"
+        android:entries="@array/spinnerItems"
+        android:fontFamily="@font/magnoliascript"/>
+
     <View
-        android:layout_width="wrap_content"
-        android:layout_height="13dp" />
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
 
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="match_parent"
-        android:layout_height="118dp"
+        android:layout_height="101dp"
         app:srcCompat="@drawable/logo" />
 
     <View
-        android:id="@+id/view"
         android:layout_width="match_parent"
         android:layout_height="13dp" />
 
@@ -46,7 +53,6 @@
         android:background="@android:color/white" />
 
     <TextView
-        android:id="@+id/textView2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:fontFamily="@font/nautilus"
@@ -57,7 +63,16 @@
 
     <View
         android:layout_width="match_parent"
-        android:layout_height="11dp" />
+        android:layout_height="13dp" />
+
+    <TextView
+        android:id="@+id/displayInstruction"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/nautilus"
+        android:paddingLeft="40dp"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
 
     <LinearLayout
         android:layout_width="wrap_content"
@@ -65,7 +80,7 @@
         android:orientation="horizontal">
 
         <View
-            android:layout_width="75dp"
+            android:layout_width="32dp"
             android:layout_height="2dp" />
 
         <EditText
@@ -95,6 +110,20 @@
             android:textSize="25dp" />
 
         <View
+            android:layout_width="5dp"
+            android:layout_height="2dp" />
+
+        <TextView
+            android:id="@+id/textRemove"
+            android:layout_width="43dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/circle"
+            android:gravity="center"
+            android:text="-"
+            android:textColor="@color/white"
+            android:textSize="25dp" />
+
+        <View
             android:layout_width="match_parent"
             android:layout_height="42dp"
             android:layout_weight="1" />
@@ -102,7 +131,7 @@
 
     <View
         android:layout_width="match_parent"
-        android:layout_height="20dp" />
+        android:layout_height="15dp" />
 
 
     <TextView
@@ -143,7 +172,7 @@
 
     <View
         android:layout_width="match_parent"
-        android:layout_height="20dp" />
+        android:layout_height="10dp" />
 
     <LinearLayout
         android:layout_width="match_parent"
